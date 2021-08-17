@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.pic{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(photog-portfolio_flora-09-1202x800.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    max-width: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(226, 192, 192);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 50px;
+    float: left;
+    padding-top: 10px;
+   
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(241, 235, 235);
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(161, 111, 111);
+}
+
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    padding-left: 50px;
+
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 19px;
+}
+
+.content h1{
+    font-family: arial;
+    font-size: 45px;
+    padding-left: 20px;
+    margin-top: 0%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: rgb(250, 155, 155);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: arial;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: rgb(92, 72, 72);
+    transition: .3s;
+}
+
+.cn:hover{
+    background-color: rgb(207, 115, 115);
+}
+
+.content span{
+    color: rgb(177, 174, 174);
+    font-size: 60px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 150px;
+    left: 1100px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(223, 152, 152);
+    font-size: 22px;
+    background-color: rgb(252, 247, 247);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid pink;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.from input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: arial;
+
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: rgb(250, 155, 155);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(150, 132, 132);
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+    background: rgb(214, 116, 116);
+    color: pink;
+
+}
+
+.btnn a{
+    text-decoration: none;
+    color: rgb(128, 118, 118);
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(250, 239, 239);
+}
+
+.form .link a{
+    text-decoration: none;
+    color: pink;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.icons a{
+    text-decoration: none;
+    color: rgb(228, 201, 201);
+
+}
+
+.icons ion-icon{
+    color: rgb(252, 252, 252);
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover{
+    color: rgb(211, 176, 182);
+
+
+}
